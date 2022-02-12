@@ -6,7 +6,11 @@ func _ready():
 		var row = []
 		for y in range(Global.SIZE_Y):
 			row.append({ 
-					"type":0
+					"type":0,
+					"blocked": false,
+					"mountain": false,
+					"location": ""
 				})
 		matrix.append(row)
 	Global.MAP = matrix
+	
