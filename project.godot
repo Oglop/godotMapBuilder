@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="Godot Map Builder"
+run/main_scene="res://scenes/Map.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://scripts/Global.gd"
 
 [physics]
 
